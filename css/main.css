@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(249, 245, 239);
+}
+
+div{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid black;
+    border-top: 0;
+}
+
+.square{
+}
+
+.rhombus{
+    
+    transform: rotate(45deg);
+}
+
+.container{
+    border: 0;
+}
