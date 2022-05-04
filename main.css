@@ -1,0 +1,29 @@
+img{
+    width: 500px;
+    height: 500px;
+    object-fit: none;
+}
+
+.barbarian{
+    object-position: -90px -115px;
+}
+
+.palladin{
+    object-position: -710px -100px;
+}
+
+.warrior{
+    object-position: -1300px -100px;
+}
+
+.mage{
+    object-position: -80px -745px;
+}
+
+.assassin{
+    object-position: -80px -1445px;
+}
+
+.necromanser{
+    object-position: -710px -750px;
+}
