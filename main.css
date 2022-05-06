@@ -1,29 +1,24 @@
-img{
-    width: 500px;
-    height: 500px;
-    object-fit: none;
+.img_class{
+    width: 300px;
+    border-radius: 70px;
 }
 
-.barbarian{
-    object-position: -90px -115px;
+.img_role{
+    width: 75px;
+    position: relative;
+    left: 0;
+    top: -150px;
 }
 
-.palladin{
-    object-position: -710px -100px;
+.users{
+    display: flex;
 }
 
-.warrior{
-    object-position: -1300px -100px;
+.users div{
+    margin: 15px;
 }
 
-.mage{
-    object-position: -80px -745px;
-}
-
-.assassin{
-    object-position: -80px -1445px;
-}
-
-.necromanser{
-    object-position: -710px -750px;
+.users h2, .users h4{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
